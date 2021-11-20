@@ -1,6 +1,6 @@
 
 import Vue from 'vue'
-import App from './App'
+import App from './app'
 import VueRouter from "vue-router"
 
 import Goods from './components/goods/Goods';
