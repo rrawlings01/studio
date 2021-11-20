@@ -11,11 +11,11 @@ import Seller from "./components/seller/Seller"
 import login from "./components/login"
 import Vant from 'vant';
 import 'vant/lib/index.css';
+
 Vue.config.productionTip = false
-
 Vue.use(VueRouter)
-
 Vue.use(Vant);
+
 const routes = [
   {path: "/", redirect: "/login"},
   {path: "/login", component: login},
